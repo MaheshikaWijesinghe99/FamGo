@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">FamGo</div>
+            <ul class="nav-links">
+                <li><a href="./Home.html">Home</a></li>
+                <li><a href="./Blog.html">Blog</a></li>
+                <li><a href="./About.html">About</a></li>
+                <li><a href="./Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero2">
+        <h2 align="center">Unlock the world with FamGo!</h2>
+        <div class="carousel-container">
+            <button class="arrow left-arrow" onclick="moveLeft()">&#9664;</button>
+            <div class="carousel">
+                <div class="carousel-item"><img src="./Assets/sydney.jpg" alt="Sydney"><span>Sydney</span></div>
+                <div class="carousel-item"><img src="./Assets/japan.jpg" alt="Japan"><span>Japan</span></div>
+                <div class="carousel-item"><img src="./Assets/china.jpg" alt="China"><span>China</span></div>
+                <div class="carousel-item middle"><img src="./Assets/sri lanka.jpg" alt="Sri Lanka"><span>Sri Lanka</span></div>
+                <div class="carousel-item"><img src="./Assets/india.PNG" alt="India"><span>India</span></div>
+                <div class="carousel-item"><img src="./Assets/paris.jpg" alt="Paris"><span>Paris</span></div>
+                <div class="carousel-item"><img src="./Assets/dubai.jpg" alt="Dubai"><span>Dubai</span></div>
+                
+            </div>
+            <button class="arrow right-arrow" onclick="moveRight()">&#9654;</button>
+        </div>
+    </section>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
